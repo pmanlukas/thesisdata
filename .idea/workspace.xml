@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e1c6a5-e7e0-4def-b175-44c4b32ef6c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/completness.ipynb" afterPath="$PROJECT_DIR$/completness.ipynb" />
-      <change beforePath="$PROJECT_DIR$/heatmap.pdf" afterPath="$PROJECT_DIR$/heatmap.pdf" />
       <change beforePath="$PROJECT_DIR$/info.ipynb" afterPath="$PROJECT_DIR$/info.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/info.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="24" />
+              <selected id="28" />
             </state>
           </provider>
         </entry>
@@ -616,7 +613,7 @@
     <entry file="file://$PROJECT_DIR$/info.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="24" />
+          <selected id="28" />
         </state>
       </provider>
     </entry>
