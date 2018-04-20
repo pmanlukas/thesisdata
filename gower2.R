@@ -11,12 +11,13 @@ library(ggplot2) # for visualization
 # Remove college name before clustering
 
 setwd("C:/Users/lukas/PycharmProjects/monimporter")
-clusterdata <- read.csv(file="clusterdfr.csv", header=TRUE, sep=",")
+clusterdata <- read.csv(file="cluster5.csv", header=TRUE, sep=",")
 
+clusterdata[, 17:18]
 
-gower_dist <- daisy(clusterdata[, 2:16],
+gower_dist <- daisy(clusterdata[, 17:18],
                     metric = "gower",
-                    type = list(logratio = 4))
+                    type = list(logratio = 2))
 
 summary(gower_dist)
 
@@ -87,4 +88,4 @@ pam_fit$clustering
 clusterdata[pam_fit$medoids, ]
 
 clusteroutput <- cbind(clusterdata,pam_fit$clustering)
-write.csv(clusteroutput, file = "PAMStruct.csv", row.names = TRUE)
+write.csv(clusteroutput, file = "PAMcomp.csv", row.names = TRUE)
