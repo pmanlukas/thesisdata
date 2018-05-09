@@ -5,6 +5,8 @@ classification of openAPI specification JSON Files.
 
 You will find all relevant files of my design research process
 
+:no_entry: The code for the PoC of the classifier can be found in this [repository](https://github.com/pmanlukas/colab)
+
 ## Here a short discription on the Notebooks:
 
 - classes verification: notebook showing the underlying samples of the clusters resulting from the clustering
