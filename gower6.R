@@ -38,6 +38,9 @@ least_similar <- clusterdata[
   which(gower_mat == max(gower_mat[gower_mat != max(gower_mat)]),
         arr.ind = TRUE)[1, ], ]
 
+similarity <- rbind(most_similar, least_similar)
+
+write.csv(similarity, file = "Structsimilar.csv", row.names = TRUE)
 # Calculate silhouette width for many k using PAM
 
 sil_width <- c(NA)
