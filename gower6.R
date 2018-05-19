@@ -42,7 +42,7 @@ least_similar <- clusterdata[
 
 sil_width <- c(NA)
 
-for(i in 2:20){
+for(i in 2:100){
   
   pam_fit <- pam(gower_dist,
                  diss = TRUE,
@@ -54,22 +54,22 @@ for(i in 2:20){
 
 # Plot sihouette width (higher is better)
 
-plot(1:20, sil_width,
+plot(1:100, sil_width,
      xlab = "Number of clusters",
      ylab = "Silhouette Width")
-lines(1:20, sil_width)
+lines(1:100, sil_width)
 
 ###########
 #Other evaluation of optimal value for k
 #we use factoextra package and apply it on the gower_distance as matrix
 
 # Elbow method
-fviz_nbclust(gower_mat, pam, k.max = 20, method = "wss") +
+fviz_nbclust(gower_mat, pam, k.max = 100, method = "wss") +
   geom_vline(xintercept = 4, linetype = 2)+
   labs(subtitle = "Elbow method")
 
 # Silhouette method
-fviz_nbclust(gower_mat, pam, k.max = 20, method = "silhouette")+
+fviz_nbclust(gower_mat, pam, k.max = 10, method = "silhouette")+
   labs(subtitle = "Silhouette method")
 
 # Gap statistic
@@ -77,23 +77,36 @@ fviz_nbclust(gower_mat, pam, k.max = 20, method = "silhouette")+
 # recommended value: nboot= 500 for your analysis.
 # Use verbose = FALSE to hide computing progression.
 set.seed(123)
-fviz_nbclust(gower_mat, pam, k.max = 20, method = "gap_stat", nboot = 50)+
+fviz_nbclust(gower_mat, pam, k.max = 10, method = "gap_stat", nboot = 5)+
   labs(subtitle = "Gap statistic method")
 
 
 # we could also do:
 library(fpc)
-asw <- numeric(20)
-for (k in 2:20)
+asw <- numeric(10)
+for (k in 2:10)
   asw[[k]] <- pam(gower_mat, k) $ silinfo $ avg.width
 k.best <- which.max(asw)
 cat("silhouette-optimal number of clusters:", k.best, "\n")
+#############
+# See http://www.jstatsoft.org/v18/i06/paper
+# http://www.stat.washington.edu/research/reports/2006/tr504.pdf
+#
+library(mclust)
+# Run the function to see how many clusters
+# it finds to be optimal, set it to search for
+# at least 1 model and up 20.
+d_clust <- Mclust(gower_mat, G=1:20)
+m.best <- dim(d_clust$z)[2]
+cat("model-based optimal number of clusters:", m.best, "\n")
+# 4 clusters
+plot(d_clust)
 
 #############
 #Cluster Interpretation
 #Via Descriptive Statistics
 
-pam_fit <- pam(gower_dist, diss = TRUE, k = 6)
+pam_fit <- pam(gower_dist, diss = TRUE, k = 10)
 
 pam_results <- clusterdata %>%
   dplyr::select(-X) %>%
