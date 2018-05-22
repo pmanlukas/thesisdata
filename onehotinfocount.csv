@@ -3,12 +3,16 @@
 6-dot-authentiqio.appspot.com,1,1,1,1,1,1,6,0
 adafruit.com,1,1,0,0,0,1,3,3
 adobe.com:aem,1,1,0,1,0,1,4,2
+adyen.com:CheckoutService,1,1,0,1,0,1,4,2
+adyen.com:PaymentService,1,1,0,1,0,1,4,2
+adyen.com:RecurringService,1,1,0,1,0,1,4,2
 afterbanks.com,1,1,0,0,0,1,3,3
 agco-ats.com,1,0,0,1,0,1,3,3
 airport-web.appspot.com,1,1,0,0,0,1,3,3
 amadeus.com,1,0,0,1,1,1,4,2
 amazonaws.com:AWSMigrationHub,1,1,1,1,1,1,6,0
 amazonaws.com:acm,1,1,1,1,1,1,6,0
+amazonaws.com:acm-pca,1,1,1,1,1,1,6,0
 amazonaws.com:alexaforbusiness,1,1,1,1,1,1,6,0
 amazonaws.com:apigateway,1,1,1,1,1,1,6,0
 amazonaws.com:application-autoscaling,1,1,1,1,1,1,6,0
@@ -39,6 +43,7 @@ amazonaws.com:cognito-idp,1,1,1,1,1,1,6,0
 amazonaws.com:cognito-sync,1,1,1,1,1,1,6,0
 amazonaws.com:comprehend,1,1,1,1,1,1,6,0
 amazonaws.com:config,1,1,1,1,1,1,6,0
+amazonaws.com:connect,1,1,1,1,1,1,6,0
 amazonaws.com:cur,1,1,1,1,1,1,6,0
 amazonaws.com:datapipeline,1,1,1,1,1,1,6,0
 amazonaws.com:dax,1,1,1,1,1,1,6,0
@@ -63,6 +68,7 @@ amazonaws.com:entitlement.marketplace,1,1,1,1,1,1,6,0
 amazonaws.com:es,1,1,1,1,1,1,6,0
 amazonaws.com:events,1,1,1,1,1,1,6,0
 amazonaws.com:firehose,1,1,1,1,1,1,6,0
+amazonaws.com:fms,1,1,1,1,1,1,6,0
 amazonaws.com:gamelift,1,1,1,1,1,1,6,0
 amazonaws.com:glacier,1,1,1,1,1,1,6,0
 amazonaws.com:glue,1,1,1,1,1,1,6,0
@@ -75,6 +81,9 @@ amazonaws.com:inspector,1,1,1,1,1,1,6,0
 amazonaws.com:iot,1,1,1,1,1,1,6,0
 amazonaws.com:iot-data,1,1,1,1,1,1,6,0
 amazonaws.com:iot-jobs-data,1,1,1,1,1,1,6,0
+amazonaws.com:iot1click-devices,1,1,1,1,1,1,6,0
+amazonaws.com:iot1click-projects,1,1,1,1,1,1,6,0
+amazonaws.com:iotanalytics,1,1,1,1,1,1,6,0
 amazonaws.com:kinesis,1,1,1,1,1,1,6,0
 amazonaws.com:kinesis-video-archived-media,1,1,1,1,1,1,6,0
 amazonaws.com:kinesis-video-media,1,1,1,1,1,1,6,0
@@ -116,6 +125,7 @@ amazonaws.com:runtime.sagemaker,1,1,1,1,1,1,6,0
 amazonaws.com:s3,1,0,1,1,1,1,5,1
 amazonaws.com:sagemaker,1,1,1,1,1,1,6,0
 amazonaws.com:sdb,1,1,1,1,1,1,6,0
+amazonaws.com:secretsmanager,1,1,1,1,1,1,6,0
 amazonaws.com:serverlessrepo,1,1,1,1,1,1,6,0
 amazonaws.com:servicecatalog,1,1,1,1,1,1,6,0
 amazonaws.com:servicediscovery,1,1,1,1,1,1,6,0
@@ -188,7 +198,6 @@ apitore.com:wordnetSimilarityApis,1,1,0,0,0,1,3,3
 apitore.com:wordnetSynonymApis,1,1,0,0,0,1,3,3
 apitore.com:wordnetTranslationApis,1,1,0,0,0,1,3,3
 apitore.com:wordsToVectorsApis,1,1,0,0,0,1,3,3
-applicationinsights.io:applicationinsights-AppInsights,1,1,1,1,1,1,6,0
 appveyor.com,1,1,1,1,1,1,6,0
 archive.org:search,1,1,0,1,0,1,4,2
 archive.org:wayback,1,1,0,1,0,1,4,2
@@ -519,6 +528,7 @@ bclaws.ca:bclaws,1,1,1,0,1,1,5,1
 beanstream.com,1,1,0,0,0,1,3,3
 beezup.com,1,1,0,1,1,1,5,1
 betfair.com,1,1,1,1,1,1,6,0
+bhagavadgita.io,1,0,0,0,0,1,2,4
 bigoven.com,1,1,1,0,0,1,4,2
 bikewise.org,1,1,0,1,0,1,4,2
 bitbucket.org,1,1,1,1,0,1,5,1
@@ -533,6 +543,7 @@ brandlovers.com,1,1,0,0,0,1,3,3
 brex.io,1,0,0,0,0,1,2,4
 browshot.com,1,1,1,1,0,1,5,1
 bufferapp.com,1,1,0,0,0,1,3,3
+bulksms.com,1,1,0,0,0,1,3,3
 bungie.net,1,1,1,1,1,1,6,0
 callfire.com,1,1,1,1,1,1,6,0
 cambase.io,1,1,0,0,0,1,3,3
@@ -643,14 +654,14 @@ github.com,1,1,1,0,0,1,4,2
 gitlab.com,1,1,0,0,0,1,3,3
 googleapis.com:abusiveexperiencereport,1,1,0,1,0,1,4,2
 googleapis.com:acceleratedmobilepageurl,1,1,0,1,0,1,4,2
-googleapis.com:adexchangebuyer,1,1,1,1,1,1,6,0
+googleapis.com:adexchangebuyer,1,1,0,1,0,1,4,2
 googleapis.com:adexchangebuyer2,1,1,1,1,1,1,6,0
 googleapis.com:adexchangeseller,1,1,1,1,1,1,6,0
 googleapis.com:adexperiencereport,1,1,0,1,0,1,4,2
 googleapis.com:admin,1,1,1,1,1,1,6,0
 googleapis.com:adsense,1,1,0,1,0,1,4,2
 googleapis.com:adsensehost,1,1,0,1,0,1,4,2
-googleapis.com:analytics,1,1,1,1,1,1,6,0
+googleapis.com:analytics,1,1,0,1,0,1,4,2
 googleapis.com:analyticsreporting,1,1,0,1,0,1,4,2
 googleapis.com:androiddeviceprovisioning,1,1,0,1,0,1,4,2
 googleapis.com:androidenterprise,1,1,0,1,0,1,4,2
@@ -662,9 +673,9 @@ googleapis.com:appstate,1,1,0,1,0,1,4,2
 googleapis.com:bigquery,1,1,0,1,0,1,4,2
 googleapis.com:bigquerydatatransfer,1,1,0,1,0,1,4,2
 googleapis.com:blogger,1,1,1,1,1,1,6,0
-googleapis.com:books,1,1,1,1,1,1,6,0
+googleapis.com:books,1,1,0,1,0,1,4,2
 googleapis.com:calendar,1,1,0,1,0,1,4,2
-googleapis.com:chat,1,0,0,1,0,1,3,3
+googleapis.com:chat,1,1,0,1,0,1,4,2
 googleapis.com:civicinfo,1,1,1,1,1,1,6,0
 googleapis.com:classroom,1,1,0,1,0,1,4,2
 googleapis.com:cloudbilling,1,1,0,1,0,1,4,2
@@ -684,7 +695,7 @@ googleapis.com:compute,1,1,0,1,0,1,4,2
 googleapis.com:consumersurveys,1,1,0,1,0,1,4,2
 googleapis.com:container,1,1,0,1,0,1,4,2
 googleapis.com:content,1,1,0,1,0,1,4,2
-googleapis.com:customsearch,1,1,1,1,1,1,6,0
+googleapis.com:customsearch,1,1,0,1,0,1,4,2
 googleapis.com:dataflow,1,1,0,1,0,1,4,2
 googleapis.com:dataproc,1,1,0,1,0,1,4,2
 googleapis.com:datastore,1,1,0,1,0,1,4,2
@@ -709,7 +720,7 @@ googleapis.com:gamesManagement,1,1,0,1,0,1,4,2
 googleapis.com:genomics,1,1,0,1,0,1,4,2
 googleapis.com:gmail,1,1,0,1,0,1,4,2
 googleapis.com:groupsmigration,1,1,1,1,1,1,6,0
-googleapis.com:groupssettings,1,1,1,1,1,1,6,0
+googleapis.com:groupssettings,1,1,0,1,0,1,4,2
 googleapis.com:iam,1,1,0,1,0,1,4,2
 googleapis.com:identitytoolkit,1,1,1,1,1,1,6,0
 googleapis.com:kgsearch,1,1,0,1,0,1,4,2
@@ -720,7 +731,7 @@ googleapis.com:manufacturers,1,1,0,1,0,1,4,2
 googleapis.com:mirror,1,1,0,1,0,1,4,2
 googleapis.com:ml,1,1,0,1,0,1,4,2
 googleapis.com:monitoring,1,1,0,1,0,1,4,2
-googleapis.com:oauth2,1,1,1,1,1,1,6,0
+googleapis.com:oauth2,1,1,0,1,0,1,4,2
 googleapis.com:oslogin,1,1,0,1,0,1,4,2
 googleapis.com:pagespeedonline,1,1,0,1,0,1,4,2
 googleapis.com:partners,1,1,0,1,0,1,4,2
@@ -780,6 +791,7 @@ gov.bc.ca:bcdc,1,1,1,1,1,1,6,0
 gov.bc.ca:bcgnws,1,1,0,1,1,1,5,1
 gov.bc.ca:geocoder,1,1,1,1,1,1,6,0
 gov.bc.ca:geomark,1,1,1,1,1,1,6,0
+gov.bc.ca:gwells,1,1,1,1,1,1,6,0
 gov.bc.ca:jobposting,1,1,0,0,0,1,3,3
 gov.bc.ca:news,1,1,0,0,1,1,4,2
 gov.bc.ca:open511,1,1,1,1,1,1,6,0
@@ -797,6 +809,7 @@ hetras-certification.net:booking,1,0,0,0,0,1,2,4
 hetras-certification.net:hotel,1,0,0,0,0,1,2,4
 hhs.gov,1,1,1,1,1,1,6,0
 highwaysengland.co.uk,1,0,0,1,0,1,3,3
+hillbillysoftware.com:shinobi,1,0,0,0,0,1,2,4
 hsbc.com,1,0,0,1,0,1,3,3
 icons8.com,1,1,0,0,0,1,3,3
 idtbeyond.com,1,1,1,0,0,1,4,2
@@ -831,7 +844,6 @@ letmc.com:free-tier,1,0,0,1,0,1,3,3
 letmc.com:maintenance,1,0,0,1,0,1,3,3
 letmc.com:reporting,1,0,0,1,0,1,3,3
 link.fish,1,1,1,1,0,1,5,1
-loganalytics.io:operationalinsights-OperationalInsights,1,1,1,1,1,1,6,0
 lotadata.com,1,1,0,0,0,1,3,3
 lufthansa.com:partner,1,0,0,0,1,1,3,3
 lufthansa.com:public,1,0,0,0,1,1,3,3
@@ -888,6 +900,7 @@ omdbapi.com,1,1,1,1,1,1,6,0
 openapi-converter.herokuapp.com,1,1,1,1,1,1,6,0
 openbanking.org.uk,1,1,0,0,0,1,3,3
 opencagedata.com,1,1,1,1,0,1,5,1
+opendatanetwork.com,1,1,0,0,0,1,3,3
 opendatasoft.com,1,0,0,1,0,1,3,3
 openfintech.io,1,1,0,1,0,1,4,2
 openstf.io,1,1,0,1,1,1,5,1
@@ -949,6 +962,7 @@ staging-ecotaco.com,1,1,0,0,0,1,3,3
 statsocial.com,1,1,0,0,0,1,3,3
 stoplight.io,1,0,0,1,0,1,3,3
 storecove.com,1,1,0,1,0,1,4,2
+stormglass.io,1,1,1,1,0,1,5,1
 stripe.com,1,1,1,1,0,1,5,1
 surrey.ca:open511,1,1,0,1,1,1,5,1
 surrey.ca:trafficloops,1,1,1,1,1,1,6,0
@@ -980,6 +994,10 @@ visagecloud.com,1,1,1,1,1,1,6,0
 vocadb.net,1,0,0,1,0,1,3,3
 voodoomfg.com,1,1,0,1,0,1,4,2
 waag.org,1,1,0,0,0,1,3,3
+walmart.com:inventory,1,1,0,1,0,1,4,2
+walmart.com:item,1,1,0,1,0,1,4,2
+walmart.com:order,1,1,0,1,0,1,4,2
+walmart.com:price,1,1,0,1,0,1,4,2
 watchful.li,1,0,0,0,0,1,2,4
 waterlinked.com,1,1,0,1,0,1,4,2
 wavecell.com,1,1,1,1,0,1,5,1

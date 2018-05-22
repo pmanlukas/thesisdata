@@ -31,17 +31,17 @@ gower_mat <- as.matrix(gower_dist)
 most_similar <- clusterdata[
   which(gower_mat == min(gower_mat[gower_mat != min(gower_mat)]),
         arr.ind = TRUE)[1, ], ]
-
+most_similar
 # Output most dissimilar pair
 
 least_similar <- clusterdata[
   which(gower_mat == max(gower_mat[gower_mat != max(gower_mat)]),
         arr.ind = TRUE)[1, ], ]
+least_similar
 
 similarity <- rbind(most_similar, least_similar)
 
-write.csv(similarity, file = "Structsimilar.csv", row.names = TRUE)
-# Calculate silhouette width for many k using PAM
+write.csv(similarity, file = "Structsimilar0518.csv", row.names = TRUE)
 
 sil_width <- c(NA)
 
@@ -67,12 +67,12 @@ lines(1:100, sil_width)
 #we use factoextra package and apply it on the gower_distance as matrix
 
 # Elbow method
-fviz_nbclust(gower_mat, pam, k.max = 100, method = "wss") +
+fviz_nbclust(gower_mat, pam, k.max = 20, method = "wss") +
   geom_vline(xintercept = 4, linetype = 2)+
   labs(subtitle = "Elbow method")
 
 # Silhouette method
-fviz_nbclust(gower_mat, pam, k.max = 10, method = "silhouette")+
+fviz_nbclust(gower_mat, pam, k.max = 20, method = "silhouette")+
   labs(subtitle = "Silhouette method")
 
 # Gap statistic
@@ -80,7 +80,7 @@ fviz_nbclust(gower_mat, pam, k.max = 10, method = "silhouette")+
 # recommended value: nboot= 500 for your analysis.
 # Use verbose = FALSE to hide computing progression.
 set.seed(123)
-fviz_nbclust(gower_mat, pam, k.max = 10, method = "gap_stat", nboot = 5)+
+fviz_nbclust(gower_mat, pam, k.max = 20, method = "gap_stat", nboot = 5)+
   labs(subtitle = "Gap statistic method")
 
 
@@ -109,7 +109,7 @@ plot(d_clust)
 #Cluster Interpretation
 #Via Descriptive Statistics
 
-pam_fit <- pam(gower_dist, diss = TRUE, k = 10)
+pam_fit <- pam(gower_dist, diss = TRUE, k = 8)
 
 pam_results <- clusterdata %>%
   dplyr::select(-X) %>%
@@ -139,4 +139,4 @@ pam_fit$clustering
 clusterdata[pam_fit$medoids, ]
 
 clusteroutput <- cbind(clusterdata,pam_fit$clustering)
-write.csv(clusteroutput, file = "PAMcomplete.csv", row.names = TRUE)
+write.csv(clusteroutput, file = "PAMcomplete0518.csv", row.names = TRUE)
