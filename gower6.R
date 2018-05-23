@@ -109,7 +109,7 @@ plot(d_clust)
 #Cluster Interpretation
 #Via Descriptive Statistics
 
-pam_fit <- pam(gower_dist, diss = TRUE, k = 8)
+pam_fit <- pam(gower_dist, diss = TRUE, k = 20)
 
 pam_results <- clusterdata %>%
   dplyr::select(-X) %>%
