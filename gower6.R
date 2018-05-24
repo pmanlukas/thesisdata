@@ -15,7 +15,7 @@ library(ggplot2) # for visualization
 # Remove college name before clustering
 
 setwd("C:/Users/lukas/PycharmProjects/monimporter")
-clusterdata <- read.csv(file="comp_df.csv", header=TRUE, sep=",")
+clusterdata <- read.csv(file="comp_df0518.csv", header=TRUE, sep=",")
 
 clusterdata[, 2:22]
 
@@ -109,7 +109,7 @@ plot(d_clust)
 #Cluster Interpretation
 #Via Descriptive Statistics
 
-pam_fit <- pam(gower_dist, diss = TRUE, k = 20)
+pam_fit <- pam(gower_dist, diss = TRUE, k = 8)
 
 pam_results <- clusterdata %>%
   dplyr::select(-X) %>%
@@ -136,7 +136,10 @@ ggplot(aes(x = X, y = Y), data = tsne_data) +
 pam_fit$clustering
 
 #examples of each cluster 
-clusterdata[pam_fit$medoids, ]
+medoids <- clusterdata[pam_fit$medoids, ]
+medoids
+write.csv(medoids, file = "medoidscomplete0518.csv", row.names = TRUE)
+
 
 clusteroutput <- cbind(clusterdata,pam_fit$clustering)
 write.csv(clusteroutput, file = "PAMcomplete0518.csv", row.names = TRUE)

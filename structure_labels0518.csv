@@ -3,12 +3,16 @@ API,label
 6-dot-authentiqio.appspot.com,2
 adafruit.com,3
 adobe.com:aem,3
+adyen.com:CheckoutService,1
+adyen.com:PaymentService,1
+adyen.com:RecurringService,1
 afterbanks.com,1
 agco-ats.com,1
 airport-web.appspot.com,4
 amadeus.com,3
 amazonaws.com:AWSMigrationHub,5
 amazonaws.com:acm,5
+amazonaws.com:acm-pca,5
 amazonaws.com:alexaforbusiness,5
 amazonaws.com:apigateway,5
 amazonaws.com:application-autoscaling,5
@@ -39,6 +43,7 @@ amazonaws.com:cognito-idp,5
 amazonaws.com:cognito-sync,5
 amazonaws.com:comprehend,5
 amazonaws.com:config,5
+amazonaws.com:connect,5
 amazonaws.com:cur,5
 amazonaws.com:datapipeline,5
 amazonaws.com:dax,5
@@ -63,6 +68,7 @@ amazonaws.com:entitlement.marketplace,5
 amazonaws.com:es,5
 amazonaws.com:events,5
 amazonaws.com:firehose,5
+amazonaws.com:fms,5
 amazonaws.com:gamelift,5
 amazonaws.com:glacier,5
 amazonaws.com:glue,5
@@ -75,6 +81,9 @@ amazonaws.com:inspector,5
 amazonaws.com:iot,5
 amazonaws.com:iot-data,5
 amazonaws.com:iot-jobs-data,5
+amazonaws.com:iot1click-devices,5
+amazonaws.com:iot1click-projects,5
+amazonaws.com:iotanalytics,5
 amazonaws.com:kinesis,5
 amazonaws.com:kinesis-video-archived-media,5
 amazonaws.com:kinesis-video-media,5
@@ -116,6 +125,7 @@ amazonaws.com:runtime.sagemaker,5
 amazonaws.com:s3,5
 amazonaws.com:sagemaker,5
 amazonaws.com:sdb,5
+amazonaws.com:secretsmanager,5
 amazonaws.com:serverlessrepo,5
 amazonaws.com:servicecatalog,5
 amazonaws.com:servicediscovery,5
@@ -188,7 +198,6 @@ apitore.com:wordnetSimilarityApis,4
 apitore.com:wordnetSynonymApis,4
 apitore.com:wordnetTranslationApis,4
 apitore.com:wordsToVectorsApis,4
-applicationinsights.io:applicationinsights-AppInsights,5
 appveyor.com,5
 archive.org:search,1
 archive.org:wayback,1
@@ -519,6 +528,7 @@ bclaws.ca:bclaws,2
 beanstream.com,1
 beezup.com,5
 betfair.com,1
+bhagavadgita.io,1
 bigoven.com,3
 bikewise.org,1
 bitbucket.org,5
@@ -533,6 +543,7 @@ brandlovers.com,4
 brex.io,4
 browshot.com,3
 bufferapp.com,4
+bulksms.com,4
 bungie.net,2
 callfire.com,5
 cambase.io,4
@@ -643,14 +654,14 @@ github.com,5
 gitlab.com,3
 googleapis.com:abusiveexperiencereport,8
 googleapis.com:acceleratedmobilepageurl,8
-googleapis.com:adexchangebuyer,2
+googleapis.com:adexchangebuyer,8
 googleapis.com:adexchangebuyer2,2
 googleapis.com:adexchangeseller,2
 googleapis.com:adexperiencereport,8
 googleapis.com:admin,2
 googleapis.com:adsense,8
 googleapis.com:adsensehost,8
-googleapis.com:analytics,2
+googleapis.com:analytics,8
 googleapis.com:analyticsreporting,8
 googleapis.com:androiddeviceprovisioning,8
 googleapis.com:androidenterprise,8
@@ -662,7 +673,7 @@ googleapis.com:appstate,8
 googleapis.com:bigquery,8
 googleapis.com:bigquerydatatransfer,8
 googleapis.com:blogger,2
-googleapis.com:books,2
+googleapis.com:books,8
 googleapis.com:calendar,8
 googleapis.com:chat,8
 googleapis.com:civicinfo,2
@@ -684,7 +695,7 @@ googleapis.com:compute,8
 googleapis.com:consumersurveys,8
 googleapis.com:container,8
 googleapis.com:content,8
-googleapis.com:customsearch,2
+googleapis.com:customsearch,8
 googleapis.com:dataflow,8
 googleapis.com:dataproc,8
 googleapis.com:datastore,8
@@ -709,7 +720,7 @@ googleapis.com:gamesManagement,8
 googleapis.com:genomics,8
 googleapis.com:gmail,8
 googleapis.com:groupsmigration,2
-googleapis.com:groupssettings,2
+googleapis.com:groupssettings,8
 googleapis.com:iam,8
 googleapis.com:identitytoolkit,2
 googleapis.com:kgsearch,8
@@ -720,7 +731,7 @@ googleapis.com:manufacturers,8
 googleapis.com:mirror,8
 googleapis.com:ml,8
 googleapis.com:monitoring,8
-googleapis.com:oauth2,2
+googleapis.com:oauth2,8
 googleapis.com:oslogin,8
 googleapis.com:pagespeedonline,8
 googleapis.com:partners,8
@@ -776,14 +787,15 @@ googleapis.com:webmasters,8
 googleapis.com:youtube,8
 googleapis.com:youtubeAnalytics,8
 googleapis.com:youtubereporting,8
-gov.bc.ca:bcdc,5
+gov.bc.ca:bcdc,2
 gov.bc.ca:bcgnws,1
 gov.bc.ca:geocoder,2
 gov.bc.ca:geomark,2
+gov.bc.ca:gwells,3
 gov.bc.ca:jobposting,1
-gov.bc.ca:news,4
+gov.bc.ca:news,1
 gov.bc.ca:open511,2
-gov.bc.ca:router,5
+gov.bc.ca:router,2
 graphhopper.com,3
 greenpeace.org,1
 gsa.gov,1
@@ -797,6 +809,7 @@ hetras-certification.net:booking,1
 hetras-certification.net:hotel,1
 hhs.gov,2
 highwaysengland.co.uk,1
+hillbillysoftware.com:shinobi,1
 hsbc.com,1
 icons8.com,1
 idtbeyond.com,4
@@ -831,7 +844,6 @@ letmc.com:free-tier,6
 letmc.com:maintenance,6
 letmc.com:reporting,6
 link.fish,2
-loganalytics.io:operationalinsights-OperationalInsights,5
 lotadata.com,3
 lufthansa.com:partner,6
 lufthansa.com:public,6
@@ -888,6 +900,7 @@ omdbapi.com,5
 openapi-converter.herokuapp.com,5
 openbanking.org.uk,4
 opencagedata.com,1
+opendatanetwork.com,1
 opendatasoft.com,3
 openfintech.io,1
 openstf.io,4
@@ -949,6 +962,7 @@ staging-ecotaco.com,1
 statsocial.com,3
 stoplight.io,3
 storecove.com,3
+stormglass.io,3
 stripe.com,1
 surrey.ca:open511,1
 surrey.ca:trafficloops,1
@@ -980,6 +994,10 @@ visagecloud.com,2
 vocadb.net,1
 voodoomfg.com,3
 waag.org,4
+walmart.com:inventory,1
+walmart.com:item,1
+walmart.com:order,4
+walmart.com:price,1
 watchful.li,8
 waterlinked.com,1
 wavecell.com,3
