@@ -9,7 +9,6 @@ adyen.com:RecurringService,payment
 afterbanks.com,financial
 agco-ats.com,ecommerce
 airport-web.appspot.com,transport
-amadeus.com,['no category']
 amazonaws.com:AWSMigrationHub,cloud
 amazonaws.com:acm,cloud
 amazonaws.com:acm-pca,cloud
@@ -81,6 +80,8 @@ amazonaws.com:inspector,cloud
 amazonaws.com:iot,cloud
 amazonaws.com:iot-data,cloud
 amazonaws.com:iot-jobs-data,cloud
+amazonaws.com:iot1click-devices,cloud
+amazonaws.com:iot1click-projects,cloud
 amazonaws.com:iotanalytics,cloud
 amazonaws.com:kinesis,cloud
 amazonaws.com:kinesis-video-archived-media,cloud
@@ -154,40 +155,19 @@ api2cart.com,ecommerce
 apigee.net:marketcheck-cars,ecommerce
 apimatic.io,developer_tools
 apis.guru,open_data
-apitore.com:2chMatomeFeedsApis,['no category']
-apitore.com:certificateFeedsApis,['no category']
-apitore.com:cosineSimilarity,['no category']
-apitore.com:designFeedsApis,['no category']
 apitore.com:documentFrequencyApis,text
-apitore.com:gameFeedsApis,['no category']
-apitore.com:japaneseWordnetApis,['no category']
-apitore.com:kmeansClusteringByWord2vec,['no category']
-apitore.com:kuromojiApis,['no category']
 apitore.com:languageDetectionApis,text
-apitore.com:newsFeedsApis,['no category']
-apitore.com:pioneerBlogFeedsApis,['no category']
-apitore.com:rss2jsonApis,['no category']
 apitore.com:sentenceSeparatorApis,text
 apitore.com:sentenceSimilarity,text
 apitore.com:sentencepieceApis_tweet_,text
 apitore.com:sentencepieceApis_wikipedia_,text
 apitore.com:sentimentApis,developer_tools
 apitore.com:synonymApis,text
-apitore.com:techFeedsApis,['no category']
-apitore.com:text2labelByTfidfApis,['no category']
-apitore.com:text2labelByWordVectorApis,['no category']
-apitore.com:travelFeedsApis,['no category']
 apitore.com:tweetSummarizationApis,text
 apitore.com:twitterApis,text
 apitore.com:twitterApisWithSentimentByApitoreSentimentApi,text
 apitore.com:twitterApisWithWord2vecQueryExpansion,text
 "apitore.com:twitterApisWithWord2vecQueryExpansion,AndAddSentimentByApitoreSentimentApi",text
-apitore.com:url2hrefApis,['no category']
-apitore.com:url2htmlApis,['no category']
-apitore.com:url2labelByTfidfApis,['no category']
-apitore.com:url2labelByWordVectorApis,['no category']
-apitore.com:url2srcApis,['no category']
-apitore.com:url2textApis,['no category']
 apitore.com:word2vecApis,text
 apitore.com:wordnetApis,text
 apitore.com:wordnetHypernymApis,text
@@ -527,7 +507,6 @@ beanstream.com,payment
 beezup.com,ecommerce
 betfair.com,entertainment
 bhagavadgita.io,open_data
-bigoven.com,['no category']
 bikewise.org,open_data
 bitbucket.org,developer_tools
 blazemeter.com,developer_tools
@@ -544,16 +523,13 @@ bufferapp.com,social
 bulksms.com,telecom
 bungie.net,media
 callfire.com,telecom
-cambase.io,['no category']
 carbondoomsday.com,open_data
 ccp.is,media
-cenit.io,['no category']
 channel4.com,media
 circleci.com,developer_tools
 circuitsandbox.net,messaging
 cisco.com,security
 citrixonline.com:gotomeeting,collaboration
-citrixonline.com:scim,['no category']
 citycontext.com,open_data
 clarify.io,search
 clever-cloud.com,cloud
@@ -565,8 +541,6 @@ code-scan.com,developer_tools
 consumerfinance.gov,financial
 core.ac.uk,open_data
 cybertaxonomy.eu,open_data
-data.gov,['no category']
-data2crm.com,['no category']
 dataatwork.org,open_data
 datumbox.com,machine_learning
 deeparteffects.com,media
@@ -641,65 +615,26 @@ freesound.org,media
 funtranslations.com,text
 furkot.com,location
 geneea.com,text
-geodesystems.com,['no category']
-getgo.com:gototraining,['no category']
-getgo.com:gotowebinar,['no category']
 getsandbox.com,developer_tools
 gettyimages.com,media
 giphy.com,media
 gisgraphy.com,location
 github.com,collaboration
 gitlab.com,developer_tools
-googleapis.com:abusiveexperiencereport,['no category']
-googleapis.com:acceleratedmobilepageurl,['no category']
-googleapis.com:adexchangebuyer,['no category']
-googleapis.com:adexchangebuyer2,['no category']
-googleapis.com:adexchangeseller,['no category']
-googleapis.com:adexperiencereport,['no category']
 googleapis.com:admin,analytics
-googleapis.com:adsense,['no category']
-googleapis.com:adsensehost,['no category']
 googleapis.com:analytics,analytics
 googleapis.com:analyticsreporting,analytics
-googleapis.com:androiddeviceprovisioning,['no category']
-googleapis.com:androidenterprise,['no category']
-googleapis.com:androidmanagement,['no category']
 googleapis.com:androidpublisher,developer_tools
-googleapis.com:appengine,['no category']
-googleapis.com:appsactivity,['no category']
-googleapis.com:appstate,['no category']
 googleapis.com:bigquery,search
-googleapis.com:bigquerydatatransfer,['no category']
 googleapis.com:blogger,social
 googleapis.com:books,media
 googleapis.com:calendar,time_management
-googleapis.com:chat,['no category']
-googleapis.com:civicinfo,['no category']
 googleapis.com:classroom,education
-googleapis.com:cloudbilling,['no category']
-googleapis.com:cloudbuild,['no category']
-googleapis.com:clouddebugger,['no category']
-googleapis.com:clouderrorreporting,['no category']
-googleapis.com:cloudfunctions,['no category']
-googleapis.com:cloudiot,['no category']
 googleapis.com:cloudkms,security
 googleapis.com:cloudmonitoring,monitoring
-googleapis.com:cloudresourcemanager,['no category']
-googleapis.com:cloudshell,['no category']
-googleapis.com:cloudtasks,['no category']
-googleapis.com:cloudtrace,['no category']
-googleapis.com:clouduseraccounts,['no category']
-googleapis.com:compute,['no category']
-googleapis.com:consumersurveys,['no category']
-googleapis.com:container,['no category']
 googleapis.com:content,ecommerce
 googleapis.com:customsearch,search
-googleapis.com:dataflow,['no category']
-googleapis.com:dataproc,['no category']
 googleapis.com:datastore,storage
-googleapis.com:deploymentmanager,['no category']
-googleapis.com:dfareporting,['no category']
-googleapis.com:digitalassetlinks,['no category']
 googleapis.com:discovery,developer_tools
 googleapis.com:dlp,cloud
 googleapis.com:dns,cloud
@@ -710,12 +645,10 @@ googleapis.com:firebasedynamiclinks,backend
 googleapis.com:firebaseremoteconfig,backend
 googleapis.com:firebaserules,backend
 googleapis.com:firestore,backend
-googleapis.com:fitness,['no category']
 googleapis.com:fusiontables,cloud
 googleapis.com:games,social
 googleapis.com:gamesConfiguration,social
 googleapis.com:gamesManagement,social
-googleapis.com:genomics,['no category']
 googleapis.com:gmail,email
 googleapis.com:groupsmigration,cloud
 googleapis.com:groupssettings,cloud
@@ -726,23 +659,19 @@ googleapis.com:language,text
 googleapis.com:licensing,enterprise
 googleapis.com:logging,cloud
 googleapis.com:manufacturers,marketing
-googleapis.com:mirror,['no category']
 googleapis.com:ml,machine_learning
 googleapis.com:monitoring,monitoring
 googleapis.com:oauth2,security
 googleapis.com:oslogin,backend
 googleapis.com:pagespeedonline,tools
-googleapis.com:partners,['no category']
 googleapis.com:people,social
 googleapis.com:playcustomapp,developer_tools
 googleapis.com:playmoviespartner,media
 googleapis.com:plus,social
 googleapis.com:plusDomains,social
-googleapis.com:poly,['no category']
 googleapis.com:prediction,machine_learning
 googleapis.com:proximitybeacon,iot
 googleapis.com:pubsub,messaging
-googleapis.com:qpxExpress,['no category']
 googleapis.com:replicapool,backend
 googleapis.com:replicapoolupdater,backend
 googleapis.com:reseller,enterprise
@@ -751,10 +680,8 @@ googleapis.com:runtimeconfig,cloud
 googleapis.com:safebrowsing,security
 googleapis.com:script,cloud
 googleapis.com:searchconsole,search
-googleapis.com:serviceconsumermanagement,['no category']
 googleapis.com:servicecontrol,cloud
 googleapis.com:servicemanagement,cloud
-googleapis.com:serviceusage,['no category']
 googleapis.com:serviceuser,cloud
 googleapis.com:sheets,cloud
 googleapis.com:siteVerification,developer_tools
@@ -767,14 +694,10 @@ googleapis.com:sqladmin,backend
 googleapis.com:storage,storage
 googleapis.com:storagetransfer,storage
 googleapis.com:streetviewpublish,location
-googleapis.com:surveys,['no category']
 googleapis.com:tagmanager,analytics
 googleapis.com:taskqueue,backend
 googleapis.com:tasks,time_management
 googleapis.com:testing,developer_tools
-googleapis.com:toolresults,['no category']
-googleapis.com:tpu,['no category']
-googleapis.com:tracing,['no category']
 googleapis.com:translate,text
 googleapis.com:urlshortener,tools
 googleapis.com:vault,storage
@@ -796,15 +719,12 @@ gov.bc.ca:open511,open_data
 gov.bc.ca:router,open_data
 graphhopper.com,location
 greenpeace.org,collaboration
-gsa.gov,['no category']
 hackathonwatch.com,social
 haloapi.com:metadata,entertainment
 haloapi.com:profile,entertainment
 haloapi.com:stats,entertainment
 haloapi.com:ugc,entertainment
 healthcare.gov,open_data
-hetras-certification.net:booking,['no category']
-hetras-certification.net:hotel,['no category']
 hhs.gov,open_data
 highwaysengland.co.uk,open_data
 hillbillysoftware.com:shinobi,media
@@ -819,7 +739,6 @@ import.io:rss,tools
 import.io:run,tools
 import.io:schedule,tools
 inboxroute.com,email
-infermedica.com,['no category']
 instagram.com,social
 instawell.com,social
 iqualify.com,education
@@ -862,7 +781,6 @@ microsoft.com:cognitiveservices-SpellCheck,cloud
 microsoft.com:cognitiveservices-Training,cloud
 microsoft.com:cognitiveservices-VideoSearch,cloud
 microsoft.com:cognitiveservices-WebSearch,cloud
-moonmoonmoonmoon.com,['no category']
 motaword.com,text
 mozilla.com:kinto,cloud
 nativeads.com,marketing
@@ -903,7 +821,6 @@ opendatasoft.com,open_data
 openfintech.io,financial
 openstf.io,telecom
 opentargets.io,open_data
-orghunter.com,['no category']
 osf.io,open_data
 osisoft.com,enterprise
 owler.com,search
@@ -911,7 +828,6 @@ oxforddictionaries.com,text
 paccurate.io,transport
 pandorabots.com,machine_learning
 passwordutility.net,security
-patientview.org,['no category']
 paylocity.com,financial
 payments.service.gov.uk:payments,financial
 payrun.io,financial
@@ -944,14 +860,10 @@ selectpdf.com,text
 semantria.com,social
 sendgrid.com,email
 shipstation.com,ecommerce
-simplyrets.com,['no category']
 slack.com,collaboration
 slicebox.local,collaboration
-slideroom.com,['no category']
 smart-me.com,iot
-solarvps.com,['no category']
 spectrocoin.com,ecommerce
-spinbot.net,['no category']
 spinitron.com,media
 spotify.com,media
 squareup.com,payment
