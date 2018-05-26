@@ -12,7 +12,7 @@ library(ggplot2) # for visualization
 # Remove college name before clustering
 
 setwd("C:/Users/lukas/PycharmProjects/monimporter")
-clusterdata <- read.csv(file="pathsdf0518.csv", header=TRUE, sep=",")
+clusterdata <- read.csv(file="pathsdf_diff.csv", header=TRUE, sep=",")
 
 clusterdata[, 2:3]
 
@@ -37,7 +37,7 @@ least_similar <- clusterdata[
 least_similar
 similarity <- rbind(most_similar, least_similar)
 
-write.csv(similarity, file = "Pathsimilar0518.csv", row.names = TRUE)
+write.csv(similarity, file = "Pathsimilar_diff.csv", row.names = TRUE)
 
 # Calculate silhouette width for many k using PAM
 
@@ -135,4 +135,4 @@ pam_fit$clustering
 clusterdata[pam_fit$medoids, ]
 
 clusteroutput <- cbind(clusterdata,pam_fit$clustering)
-write.csv(clusteroutput, file = "PAMpath0518.csv", row.names = TRUE)
+write.csv(clusteroutput, file = "PAMpath_diff.csv", row.names = TRUE)

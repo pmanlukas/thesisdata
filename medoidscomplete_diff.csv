@@ -1,0 +1,9 @@
+"","X","swagger","info","host","basePath","schemes","consumes","produces","paths","definitions","parameters","responses","securityDefinitions","security","tags","externalDocs","title","description","termsOfService","contact","license","version"
+"836","landregistry.gov.uk:deed",1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,1
+"657","googleapis.com:adexchangebuyer2",1,1,1,1,1,0,0,1,1,1,0,1,0,1,1,1,1,1,1,1,1
+"994","voodoomfg.com",1,1,1,1,1,0,1,1,1,0,0,1,1,0,0,1,1,0,1,0,1
+"873","neowsapp.com",1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,1,1,0,0,0,1
+"150","amazonaws.com:xray",1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1
+"521","azure.com:web-logicAppsManagementClient",1,1,1,0,1,1,1,1,1,1,0,1,1,0,0,1,0,0,0,0,1
+"1015","windows.net:graphrbac",1,1,1,0,1,1,1,1,1,1,0,1,1,0,0,1,1,0,0,0,1
+"788","googleapis.com:youtubereporting",1,1,1,1,1,0,0,1,1,1,0,1,0,1,1,1,1,0,1,0,1

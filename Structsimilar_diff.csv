@@ -1,0 +1,5 @@
+"","X","swagger","info","host","basePath","schemes","consumes","produces","paths","definitions","parameters","responses","securityDefinitions","security","tags","externalDocs","title","description","termsOfService","contact","license","version"
+"836","landregistry.gov.uk:deed",1,1,1,1,1,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,1
+"1","1forge.com",1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,1
+"200","appveyor.com",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"5","adyen.com:CheckoutService",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,1
