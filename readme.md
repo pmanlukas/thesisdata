@@ -6,7 +6,11 @@ classification of openAPI specification JSON Files.
 You will find all relevant files of my design research process
 
 :no_entry: The code for the PoC of the classifier can be found in this [repository](https://github.com/pmanlukas/colab)
+
 :no_entry: The code for the linear SVM based classifier for benchmarking can be found in this [repository](https://github.com/pmanlukas/colabSVM)
+
+:no_entry: The code for an example implementation of the classifier as api can be found in this [repository](https://github.com/pmanlukas/classifierAPI)
+
 
 ## Here a short discription on the Notebooks:
 
