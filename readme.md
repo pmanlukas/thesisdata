@@ -11,7 +11,7 @@ You will find all relevant files of my design research process
 
 :no_entry: The code for an example implementation of the classifier as api can be found in this [repository](https://github.com/pmanlukas/classifierAPI)
 
-no_entry: The code for the static web page for the dataset can be found in this [repository](https://github.com/pmanlukas/datasetWeb)
+:no_entry: The code for the static web page for the dataset can be found in this [repository](https://github.com/pmanlukas/datasetWeb)
 
 
 ## Here a short discription on the Notebooks:
